@@ -1,0 +1,30 @@
+---
+abstract: 'Passphrases and Passwords as objects for Dancer2'
+author:
+  - 'Henk van Oers <hvo.pm@xs4all.nl>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Dancer2-Plugin-Passphrase
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Dancer2: 0.151
+  Data::Entropy: 0.007
+  Digest::Bcrypt: 0
+  Digest::SHA: 5.74
+  Test::More: 0
+resources:
+  bugtracker: https://github.com/hvoers/Dancer2-Plugin-Passphrase/issues
+  homepage: https://github.com/hvoers/Dancer2-Plugin-Passphrase/
+  repository: https://github.com/hvoers/Dancer2-Plugin-Passphrase
+version: v2.0.3
