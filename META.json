@@ -32,11 +32,13 @@
       },
       "runtime" : {
          "requires" : {
-            "Dancer2" : "0.151",
+            "Dancer2" : "0.153002",
             "Data::Entropy" : "0.007",
             "Digest::Bcrypt" : "0",
             "Digest::SHA" : "5.74",
-            "Test::More" : "0"
+            "Module::Pluggable" : "5.1",
+            "Test::More" : "0",
+            "perl" : "5.010001"
          }
       }
    },
@@ -50,5 +52,5 @@
          "url" : "https://github.com/hvoers/Dancer2-Plugin-Passphrase"
       }
    },
-   "version" : "v2.0.3"
+   "version" : "v2.0.4"
 }
