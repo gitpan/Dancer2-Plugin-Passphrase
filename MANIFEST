@@ -17,7 +17,6 @@ t/006_return_object.t
 t/007_no_salt.t
 t/008_unicode_matching.t
 t/009_exception_handling.t
-t/010_auto_stringification.t
 t/011_alternative_bcrypt.t
 t/013_hashes_generated_elsewhere.t
 META.yml                                 Module YAML meta-data (added by MakeMaker)
